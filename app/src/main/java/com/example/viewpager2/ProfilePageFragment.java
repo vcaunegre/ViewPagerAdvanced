@@ -16,8 +16,8 @@ import android.view.ViewGroup;
 public class ProfilePageFragment extends Fragment {
 
 
-        public static NewsPageFragment newInstance() {
-            return (new NewsPageFragment());
+        public static ProfilePageFragment newInstance() {
+            return (new ProfilePageFragment());
         }
 
         @Override

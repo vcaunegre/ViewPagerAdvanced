@@ -15,13 +15,13 @@ public class PageAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return (3);
     }
 
     public Fragment getItem(int position) {
         switch (position) {
             case 0: //Page number 1
-                return NewsPageFragment.newInstance();
+                return NewsPageFragment.newInstance(position,this.colors[position]);
             case 1: //Page number 2
                 return ProfilePageFragment.newInstance();
             case 2: //Page number 3
